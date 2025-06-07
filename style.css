@@ -1,0 +1,83 @@
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 100px 100px; 
+}
+
+.text1 {
+  font-family: Georgia, serif;
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.funnel {
+  font-family: 'Funnel Sans', sans-serif;
+  color: #e6e6e6;
+  font-style: normal;
+  font-size: 19px;
+}
+
+.romantypeshit {
+  font-family: 'Libre Caslon Text', sans-serif;
+  color: #e6e6e6;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.mybox {
+  /*background-color: #f0f0f0;*/
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  margin: 10px 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.myunderline {
+  /*background-color: #f0f0f0;*/
+  border-bottom: 1px solid #e6e6e6;
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.site-nav {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  right: 100px;
+  background-color: #000000;
+}
+  
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #d46a6a;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #d46a6a;
+  font-family: 'Funnel Sans', sans-serif;
+}
+
+.site-nav a:hover {
+  background-color: #e6e6e6;
+  color: #000000;
+}
