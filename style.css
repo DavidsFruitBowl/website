@@ -29,6 +29,22 @@ body {
   font-weight: 300;
 }
 
+.funnelitalic {
+  font-family: 'Funnel Sans', sans-serif;
+  color: #e6e6e6;
+  font-style: italic;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.funnelbold {
+  font-family: 'Funnel Sans', sans-serif;
+  color: #e6e6e6;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 600;
+}
+
 .romantypeshit {
   font-family: 'Libre Caslon Text', sans-serif;
   color: #e6e6e6;
