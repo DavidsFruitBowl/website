@@ -36,6 +36,12 @@ body {
   font-weight: 400;
 }
 
+.animal {
+  font-family: 'animal', sans-serif;
+  font-size: 19px;
+  color: #e6e6e6;
+}
+
 .mybox {
   /*background-color: #f0f0f0;*/
   border: 1px solid #e6e6e6;
