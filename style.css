@@ -9,10 +9,30 @@
 
 
 body {
-  background-color: #000000;
-  color: #e6e6e6;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: sans-serif;
   margin: 100px 100px; 
+}
+
+.homepage {
+    background-color: #0f0f0f;
+}
+
+/* Background for the Notes page (paper color) */
+.notespage {
+
+}
+
+/* Background for the Architect page */
+.architectpage {
+
+}
+
+.paperpage {
+
+}
+
+.resumepage {
+
 }
 
 .text1 {
