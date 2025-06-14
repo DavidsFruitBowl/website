@@ -21,19 +21,12 @@ body {
   font-size: 19px;
 }
 
-.nun {
-  font-family: "Nunito Sans", sans-serif;
-  font-style: normal;
-  color: #e6e6e6;
-  font-size: 19px;
-  font-weight: 300;
-}
-
 .funnel {
   font-family: 'Funnel Sans', sans-serif;
   color: #e6e6e6;
   font-style: normal;
   font-size: 19px;
+  font-weight: 400;
 }
 
 .romantypeshit {
