@@ -21,6 +21,12 @@ body {
   font-size: 19px;
 }
 
+.nun {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  color: #e6e6e6;
+}
+
 .funnel {
   font-family: 'Funnel Sans', sans-serif;
   color: #e6e6e6;
@@ -66,7 +72,7 @@ body {
   top: 5px;
   left: 100px;
   right: 100px;
-  background-color: #000000;
+  background-color: #e6e6e6;
 }
   
 .site-nav ul {
