@@ -16,7 +16,7 @@ body {
 }
 
 .text1 {
-  font-family: Georgia, serif;
+  font-family: Georgia, sans-serif;
   color: #e6e6e6;
   font-size: 19px;
 }
@@ -25,6 +25,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
   color: #e6e6e6;
+  font-size: 19px;
 }
 
 .funnel {
