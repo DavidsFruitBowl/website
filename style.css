@@ -101,8 +101,8 @@ body {
 .site-nav {
   position: absolute;
   top: 19px;
-  left: 50px;
-  right: 50px;
+  left: 100px;
+  right: 100px;
 }
   
 .site-nav ul {
