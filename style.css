@@ -129,8 +129,10 @@ body {
 
 .site-nav {
   position: static;
-  width: 80%;
   margin-top: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; 
 }
   
 .site-nav ul {
