@@ -99,7 +99,7 @@ body {
 
 
 .site-nav {
-  position: absolute;
+  position: static;
   top: 19px;
   left: 100px;
   right: 100px;
