@@ -31,10 +31,12 @@ body {
 
 
 .notespage {
+  background-color: #0f0f0f;
 }
 
 
 .architectpage {
+  background-color: #0f0f0f;
 }
 
 
@@ -59,10 +61,6 @@ body {
   max-width: 90%;
   max-height: 90vh;
   object-fit: contain;
-}
-
-
-.resumepage {
 }
 
 
