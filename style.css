@@ -129,10 +129,8 @@ body {
 
 .site-nav {
   position: static;
+  width: 80%;
   margin-top: 50px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto; 
 }
   
 .site-nav ul {
@@ -143,8 +141,6 @@ body {
   border-bottom: 1px solid #ffee84;
   padding-bottom: 10px;
   padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .site-nav li {
