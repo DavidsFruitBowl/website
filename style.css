@@ -31,13 +31,7 @@ body {
 
 
 .notespage {
-  background-image: url('assets/notebook.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;    
-
-  min-height: 100vh;
-  width: 100%;  
+  background-color: #0f0f0f;
 }
 
 
