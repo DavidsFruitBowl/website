@@ -33,18 +33,38 @@ body {
 .notespage {
 }
 
+
 .architectpage {
 }
 
+
 .paperpage {
-  display: flex;        
+  display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;  
+  min-height: 100vh;
+  background-color: #0f0f0f;
 }
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.video-container video {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
 
 .resumepage {
 }
+
 
 .text1 {
   font-family: Georgia, sans-serif;
