@@ -21,7 +21,7 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .logo img {
@@ -131,7 +131,7 @@ body {
 
 .site-nav {
   position: static;
-  top: 19px;
+  top: 30px;
   left: 100px;
   right: 100px;
   width: 100%;
