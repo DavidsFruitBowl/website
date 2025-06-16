@@ -152,8 +152,9 @@ body {
   display: inline-block;
   padding: 5px 20px;
   text-decoration: none;
-  color: #d46a6a;
+  color: #ffee84;
   font-family: 'Funnel Sans', sans-serif;
+  font-size: 19px;
 }
 
 .site-nav a:hover {
