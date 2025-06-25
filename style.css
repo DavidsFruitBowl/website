@@ -1,4 +1,4 @@
- /**/
+/**/
 
 @font-face {  /* animal crossing font */
   font-family: 'animal';
@@ -160,4 +160,184 @@ body {
 .site-nav a:hover {
   background-color: #e6e6e6;
   color: #0f0f0f;
+}
+
+
+/* notes stuff */
+
+
+.notes-container {
+    display: flex;
+    margin-top: 20px;
+    min-height: calc(100vh - 100px);
+    border: 1px solid #d46a6a;
+    border-radius: 8px; /* rounded corners */
+    overflow: hidden;
+}
+
+.notes-sidebar {
+    flex: 0 0 280px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-right: 1px solid #d46a6a;
+    overflow-y: auto; 
+    -ms-overflow-style: none;  /* scrollbar begone */
+    scrollbar-width: none;  /* scrollbar begone 2 */
+}
+
+/* ultimate scrollbar begone */
+.notes-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.notes-sidebar p.funnel { /* style */
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2a2a2a;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.notes-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center; /* vertically centers */
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #252525;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease; /* smooth effect */
+    user-select: none; 
+}
+
+.menu-item:hover {
+    background-color: #3a3a3a;
+}
+
+.menu-item.entry {
+    display: block;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.menu-item.entry:hover {
+    background-color: #3a3a3a;
+}
+
+.menu-item.entry.active {
+    background-color: #d46a6a;
+    color: #0f0f0f; 
+    font-weight: bold; 
+}
+
+
+.menu-item .dropdown-icon {
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+}
+
+/* arrow rotateeh */
+.menu-item.subject-matter.expanded .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.nested-menu {
+    list-style: none;
+    padding-left: 20px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow: hidden; 
+    transition: max-height 0.3s ease-out; 
+    max-height: 0;
+}
+
+
+.nested-menu.visible {
+    max-height: 500px;
+}
+
+
+.notes-content {
+    flex: 1; 
+    background-color: #0f0f0f;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+.notes-content h3 {
+    color: #d46a6a; 
+    font-family: 'Funnel Sans', sans-serif;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(212, 106, 106, 0.3);
+}
+
+.notes-content p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 0 15px; 
+    }
+
+    .notes-container {
+        flex-direction: column; 
+        min-height: auto; 
+    }
+
+    .notes-sidebar {
+        flex: none; 
+        width: 100%;
+        border-right: none; 
+        border-bottom: 1px solid #d46a6a;
+        max-height: 40vh;
+    }
+
+    .notes-sidebar h2, .notes-sidebar p.funnel { 
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .notes-content {
+        padding: 15px;
+        min-height: 60vh;
+    }
+
+    .site-nav a { 
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        margin: 0 10px;
+    }
+
+    .site-nav ul {
+        padding-bottom: 5px; 
+    }
+
+    .site-nav a {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
 }
