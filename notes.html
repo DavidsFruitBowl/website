@@ -29,7 +29,66 @@
   </nav>
 
   
-  <p class="funnel"> soon </p>
+  <div class="notes-container">
+    
+    <!-- left sidebar -->
+    <aside class="notes-sidebar">
+      
+      <p class="funnel"> Categories </p>
+      
+      <ul class="notes-menu">
+      
+        <li>
+          <div class="menu-item subject-matter">
+            <span class="funnel"> subject 1 </span>
+            <span class="dropdown-icon">&#9660;</span>
+          </div>
+        
+            <ul class="nested-menu hidden">
+              <li>
+                <div class="menu-item subject-matter">
+                  <span class="funnel"> subject 2 </span>
+                  <span class="dropdown-icon">&#9660;</span>
+                </div>
+                
+                <ul class="nested-menu hidden">
+
+                  <li><a href="#" class="menu-item entry" data-note="note1"> entry 1 </a></li>
+
+                  <li><a href="#" class="menu-item entry" data-note="note2"> entry 2 </a></li>
+
+                </ul>
+                
+              </li>
+              <li><a href="#" class="menu-item entry" data-note="note2"> entry 3 </a></li>
+            </ul>
+        </li>
+    
+        <li>
+          <div class="menu-item subject-matter">
+            <span class="funnel"> subject 3 </span>
+            <span class="dropdown-icon">&#9660;</span>
+          </div>
+          
+          <ul class="nested-menu hidden">
+            <li><a href="#" class="menu-item entry" data-note="note4"> entry 4 </a></li>
+          </ul>
+        </li>
+    
+        <li><a href="#" class="menu-item entry" data-note="welcome-note"> hi </a></li>
+      </ul>
+    </aside>
+
+    <!-- right area -->
+    <main class="notes-content">
+      <p class="funnel"> help ,me </p>
+      <!-- js -->
+    </main>
+  </div>
+  
+
+  <script src="script.js"></script>
+  
 
 
 </body>
